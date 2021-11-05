@@ -1,0 +1,5 @@
+helper_commands.txt
+tf_key.pem
+TF_API_TOKEN
+.terraform.lock.hcl
+!/.terraform/
