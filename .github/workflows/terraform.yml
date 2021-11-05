@@ -72,7 +72,7 @@ jobs:
     #  with:
     #    cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
     - name: Setup Terraform
-      run: wget https://releases.hashicorp.com/terraform/1.0.10/terraform_1.0.10_linux_amd64.zip && unzip terraform_1.0.10_linux_amd64.zip && mv terraform /usr/bin/
+      run: wget https://releases.hashicorp.com/terraform/1.0.10/terraform_1.0.10_linux_amd64.zip && unzip terraform_1.0.10_linux_amd64.zip && ls -la && sudo mv terraform /usr/bin/
 
     # Initialize a new or existing Terraform working directory by creating initial files, loading any remote state, downloading modules, etc.
     - name: Terraform Init
